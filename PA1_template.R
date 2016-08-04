@@ -23,7 +23,7 @@
     <meta http-equiv="Content-Language" content="en">
     <meta name="viewport" content="width=device-width">
     
-    <title>coursera-repdata/PA1_template.Rmd at master · sefakilic/coursera-repdata</title>
+    <title>coursera-repdata/PA1_template.R at master · sefakilic/coursera-repdata</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -43,7 +43,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/MTkzNjgwMTE6NmVjZmM1NTU3YjJlZWM1YjZjMDAzOGM3MmM2NzRhMTc6ZTEwMTgwNDY4MWVkYjVlYTMyYjYxNjcwMDRhNGU3NzY5OTBhZTY2NTdhYjE0ZDRmZTBlOTQxZGVkMzJkYmFkYQ==--8aba9bbcedc77bed2bba24ce32f6176f17364ce9">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTkzNjgwMTE6NmVjZmM1NTU3YjJlZWM1YjZjMDAzOGM3MmM2NzRhMTc6NTIwNTRjODM0ODg3Mzc0N2RkNmVmNjAwZTQyYzg4ZWM0YTA1ZDVmYWY5YzdhZTNhNTMwMjY1NmVlZjViYmFkNg==--61a1acb8c6f6422437e4fff47b4435d149d53838">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -55,7 +55,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="CA3BE73D:6CA4:AB3B25A:57A2FCDE" name="octolytics-dimension-request_id" /><meta content="19368011" name="octolytics-actor-id" /><meta content="anuragnagaich" name="octolytics-actor-login" /><meta content="528915d4755387a0f816342d6785e0fcf88df8ce1ec13217dc018c49dec768be" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="CA3BE73D:6CA4:AB3B1F0:57A2FCDD" name="octolytics-dimension-request_id" /><meta content="19368011" name="octolytics-actor-id" /><meta content="anuragnagaich" name="octolytics-actor-login" /><meta content="528915d4755387a0f816342d6785e0fcf88df8ce1ec13217dc018c49dec768be" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -68,7 +68,7 @@
     <meta name="user-login" content="anuragnagaich">
 
         <meta name="expected-hostname" content="github.com">
-      <meta name="js-proxy-site-detection-payload" content="ZDNlM2Y3OTFkMGE5NmI1MGQ0M2E1ZWI2NWM3ODQxOGRjZWY1Y2FlYzc4ODIyZTQ4ZjU1ZGI4MGVhYTJhNTI5OXx7InJlbW90ZV9hZGRyZXNzIjoiMjAyLjU5LjIzMS42MSIsInJlcXVlc3RfaWQiOiJDQTNCRTczRDo2Q0E0OkFCM0IyNUE6NTdBMkZDREUiLCJ0aW1lc3RhbXAiOjE0NzAyOTkzNjV9">
+      <meta name="js-proxy-site-detection-payload" content="ZjIyNzMyMTU3NzFlYTJlNjQyN2FkNTg2OTZiNjM1MWY2NDlmZWQzMWM2MDAwNTdkOTVlNzIzODgyYWUxZGI3ZXx7InJlbW90ZV9hZGRyZXNzIjoiMjAyLjU5LjIzMS42MSIsInJlcXVlc3RfaWQiOiJDQTNCRTczRDo2Q0E0OkFCM0IxRjA6NTdBMkZDREQiLCJ0aW1lc3RhbXAiOjE0NzAyOTkzNTh9">
 
 
       <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
@@ -88,7 +88,7 @@
   <link href="https://github.com/sefakilic/coursera-repdata/commits/master.atom" rel="alternate" title="Recent Commits to coursera-repdata:master" type="application/atom+xml">
 
 
-      <link rel="canonical" href="https://github.com/sefakilic/coursera-repdata/blob/master/project1/PA1_template.Rmd" data-pjax-transient>
+      <link rel="canonical" href="https://github.com/sefakilic/coursera-repdata/blob/master/project1/PA1_template.R" data-pjax-transient>
   </head>
 
 
@@ -218,7 +218,7 @@
           Settings
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="hk3pxrbWie/ENHVu3TRlU4tKIUD2l8n7QhXzsyvkrAH4IemwOohIucwfskSRatHSkDVNM00bEF/R7oZmcJUx3Q==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="pf2V/lzxkEbkd6xBpU7PTdPEv55tNyNC5no9wZJYKSC7slv0j7+Vm0C1InaLJJx6TIfM+YEpt24Kdj14oRxNBw==" /></div>
           <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -254,7 +254,7 @@
 <ul class="pagehead-actions">
 
   <li>
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="5YNA09Po2vejkmBV1OSA1LFQSZlAv/IuiYDA7yNZHkIfd6Um0HY/pr/iGZumSFaruBxmT1kdmI0r7kSHErMFqg==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="19899531" />
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="4Bud9tZOt9mCa2u9qdM+g5uQLoyr8KBeI6biEhH3QYRGvMNgfriUVYvBIluuuHekUlmoJV2wbRH7KxMyvaaLPg==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="19899531" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/sefakilic/coursera-repdata/subscription"
@@ -329,7 +329,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/unstar" class="starred" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="+2VYIVK8UQzU1BKeAnRQpv2uJC0uRcSqwGTuOC1+ZEHfrxy7GpNBi6cVauytjLa1snKFjtrfDkAlgfSWOaJrGA==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/unstar" class="starred" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="vyqi17WcwVKDoasDJxcMx3IscegFvYztQ9C9PWlNgvTc+/xFzOwpci+5xRHOXqxLFxOFxI9h6zCsrps6esLxJQ==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar sefakilic/coursera-repdata"
@@ -341,7 +341,7 @@
           2
         </a>
 </form>
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/star" class="unstarred" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="PSw3YVn8mwHJb2NlUh9F1RGVPwsh2ojK+ereP3RyB49hdWSgSD1jsxs12FIj4uaAJ4wCFtSASN1ABsqAQNPWng==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/star" class="unstarred" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="l6V6C0kw9Kg38lbsgUMivKpTOSta4OCUhL90ixzfQz9xh+Gv2sJsYluWmcLZnsgWC7QbJI8cygV07NJ3Qw4IpQ==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star sefakilic/coursera-repdata"
@@ -357,7 +357,7 @@
   </li>
 
   <li>
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/fork" class="btn-with-count" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="tgj00ne5DxBnXJ+VPVzbA3OWdisgeLlv9kzcEvbvNKTfo4EiA8w4K5RKlqkIsmUWHkHKZcTuttSi/nfYxbg6GQ==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/fork" class="btn-with-count" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="UllHbtP5yCMvbu/NwBeTGcXlTSHMRJ7nSmh2+i1HvGuUHuBppt9p3bsgnZd+X5I5q55i+QmZg5XQ9hm2U8wLGA==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -434,9 +434,9 @@
 
     
 
-<a href="/sefakilic/coursera-repdata/blob/887120ed7a37211dd2d2bdc05dbe0e81e0e1ae7d/project1/PA1_template.Rmd" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/sefakilic/coursera-repdata/blob/887120ed7a37211dd2d2bdc05dbe0e81e0e1ae7d/project1/PA1_template.R" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:6d6806dc24f7cf07b8d8f21bab535284 -->
+<!-- blob contrib key: blob_contributors:v21:72d6d795616f0276c9ae7e83f7622712 -->
 
 <div class="file-navigation js-zeroclipboard-container">
   
@@ -478,7 +478,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/sefakilic/coursera-repdata/blob/master/project1/PA1_template.Rmd"
+               href="/sefakilic/coursera-repdata/blob/master/project1/PA1_template.R"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -515,22 +515,22 @@
     <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
   </div>
   <div class="breadcrumb js-zeroclipboard-target">
-    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/sefakilic/coursera-repdata"><span>coursera-repdata</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/sefakilic/coursera-repdata/tree/master/project1"><span>project1</span></a></span><span class="separator">/</span><strong class="final-path">PA1_template.Rmd</strong>
+    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/sefakilic/coursera-repdata"><span>coursera-repdata</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/sefakilic/coursera-repdata/tree/master/project1"><span>project1</span></a></span><span class="separator">/</span><strong class="final-path">PA1_template.R</strong>
   </div>
 </div>
 
 
   <div class="commit-tease">
       <span class="right">
-        <a class="commit-tease-sha" href="/sefakilic/coursera-repdata/commit/a294c1c2856357eb6f345902dd359b0814b386b0" data-pjax>
-          a294c1c
+        <a class="commit-tease-sha" href="/sefakilic/coursera-repdata/commit/887120ed7a37211dd2d2bdc05dbe0e81e0e1ae7d" data-pjax>
+          887120e
         </a>
-        <relative-time datetime="2014-05-18T15:05:57Z">May 18, 2014</relative-time>
+        <relative-time datetime="2014-08-25T02:41:33Z">Aug 25, 2014</relative-time>
       </span>
       <div>
         <img alt="@sefakilic" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/1227083?v=3&amp;s=40" width="20" />
         <a href="/sefakilic" class="user-mention" rel="author">sefakilic</a>
-          <a href="/sefakilic/coursera-repdata/commit/a294c1c2856357eb6f345902dd359b0814b386b0" class="message" data-pjax="true" title="peer assessment 1">peer assessment 1</a>
+          <a href="/sefakilic/coursera-repdata/commit/887120ed7a37211dd2d2bdc05dbe0e81e0e1ae7d" class="message" data-pjax="true" title="R files added">R files added</a>
       </div>
 
     <div class="commit-tease-contributors">
@@ -557,24 +557,24 @@
   <div class="file-actions">
 
     <div class="btn-group">
-      <a href="/sefakilic/coursera-repdata/raw/master/project1/PA1_template.Rmd" class="btn btn-sm " id="raw-url">Raw</a>
-        <a href="/sefakilic/coursera-repdata/blame/master/project1/PA1_template.Rmd" class="btn btn-sm js-update-url-with-hash">Blame</a>
-      <a href="/sefakilic/coursera-repdata/commits/master/project1/PA1_template.Rmd" class="btn btn-sm " rel="nofollow">History</a>
+      <a href="/sefakilic/coursera-repdata/raw/master/project1/PA1_template.R" class="btn btn-sm " id="raw-url">Raw</a>
+        <a href="/sefakilic/coursera-repdata/blame/master/project1/PA1_template.R" class="btn btn-sm js-update-url-with-hash">Blame</a>
+      <a href="/sefakilic/coursera-repdata/commits/master/project1/PA1_template.R" class="btn btn-sm " rel="nofollow">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
-           href="github-windows://openRepo/https://github.com/sefakilic/coursera-repdata?branch=master&amp;filepath=project1%2FPA1_template.Rmd"
+           href="github-windows://openRepo/https://github.com/sefakilic/coursera-repdata?branch=master&amp;filepath=project1%2FPA1_template.R"
            aria-label="Open this file in GitHub Desktop"
            data-ga-click="Repository, open with desktop, type:windows">
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"></path></svg>
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/edit/master/project1/PA1_template.Rmd" class="inline-form js-update-url-with-hash" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="mKdLCvtx6HM1Vd6MiLD14A0oXTcDiyxJeBCf9VJ29rnwX4gOMlW182PlXSuf+pVWSkjFhhsIBNYrve4ATBjIqg==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/edit/master/project1/PA1_template.R" class="inline-form js-update-url-with-hash" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="pe6Jx1afn9Q8MN11uhl22gNEmguNWWYoM5COlBh2KwVHNoRPsze5BYA7GJdV+hfMGttw/ICD8lkURuboL13ZLQ==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Edit the file in your fork of this project" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"></path></svg>
           </button>
-</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/delete/master/project1/PA1_template.Rmd" class="inline-form" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Cb1D/sfJujxm1umy3Zi9v54+K3jPFkYi3PJTNm9jvKVE8bA4GD70BQkTPfxg2ktE3i9Kk4SNVlaSuG2QsEnfAw==" /></div>
+</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/delete/master/project1/PA1_template.R" class="inline-form" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="211TfzAvEXfmY2EFJMPa8f8Ec5ZgqHsXn56oNDyl/+O28ScRfrw+Qe/e1emJrRJgePRnOmN1mu7PNYApAVFeKA==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Delete the file in your fork of this project" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"></path></svg>
@@ -582,105 +582,332 @@
 </form>  </div>
 
   <div class="file-info">
-      102 lines (87 sloc)
+      75 lines (56 sloc)
       <span class="file-info-divider"></span>
-    3.37 KB
+    2.48 KB
   </div>
 </div>
 
   
-  <div id="readme" class="readme blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-reproducible-research-peer-assessment-1" class="anchor" href="#reproducible-research-peer-assessment-1" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reproducible Research: Peer Assessment 1</h1>
 
-<h2><a id="user-content-loading-and-preprocessing-the-data" class="anchor" href="#loading-and-preprocessing-the-data" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Loading and preprocessing the data</h2>
+  <div itemprop="text" class="blob-wrapper data type-r">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-c">## ----loaddata------------------------------------------------------------</span></td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line">unzip(<span class="pl-v">zipfile</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>activity.zip<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">data</span> <span class="pl-k">&lt;-</span> read.csv(<span class="pl-s"><span class="pl-pds">&quot;</span>activity.csv<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-c">## ------------------------------------------------------------------------</span></td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">library(<span class="pl-smi">ggplot2</span>)</td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">total.steps</span> <span class="pl-k">&lt;-</span> tapply(<span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">steps</span>, <span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">date</span>, <span class="pl-v">FUN</span><span class="pl-k">=</span><span class="pl-smi">sum</span>, <span class="pl-v">na.rm</span><span class="pl-k">=</span><span class="pl-c1">TRUE</span>)</td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">qplot(<span class="pl-smi">total.steps</span>, <span class="pl-v">binwidth</span><span class="pl-k">=</span><span class="pl-c1">1000</span>, <span class="pl-v">xlab</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>total number of steps taken each day<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">mean(<span class="pl-smi">total.steps</span>, <span class="pl-v">na.rm</span><span class="pl-k">=</span><span class="pl-c1">TRUE</span>)</td>
+      </tr>
+      <tr>
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">median(<span class="pl-smi">total.steps</span>, <span class="pl-v">na.rm</span><span class="pl-k">=</span><span class="pl-c1">TRUE</span>)</td>
+      </tr>
+      <tr>
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-c">## ------------------------------------------------------------------------</span></td>
+      </tr>
+      <tr>
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">library(<span class="pl-smi">ggplot2</span>)</td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">averages</span> <span class="pl-k">&lt;-</span> aggregate(<span class="pl-v">x</span><span class="pl-k">=</span><span class="pl-k">list</span>(<span class="pl-v">steps</span><span class="pl-k">=</span><span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">steps</span>), <span class="pl-v">by</span><span class="pl-k">=</span><span class="pl-k">list</span>(<span class="pl-v">interval</span><span class="pl-k">=</span><span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">interval</span>),</td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">                      <span class="pl-v">FUN</span><span class="pl-k">=</span><span class="pl-smi">mean</span>, <span class="pl-v">na.rm</span><span class="pl-k">=</span><span class="pl-c1">TRUE</span>)</td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">ggplot(<span class="pl-v">data</span><span class="pl-k">=</span><span class="pl-smi">averages</span>, aes(<span class="pl-v">x</span><span class="pl-k">=</span><span class="pl-smi">interval</span>, <span class="pl-v">y</span><span class="pl-k">=</span><span class="pl-smi">steps</span>)) <span class="pl-k">+</span></td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">    geom_line() <span class="pl-k">+</span></td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">    xlab(<span class="pl-s"><span class="pl-pds">&quot;</span>5-minute interval<span class="pl-pds">&quot;</span></span>) <span class="pl-k">+</span></td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">    ylab(<span class="pl-s"><span class="pl-pds">&quot;</span>average number of steps taken<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class="pl-c">## ------------------------------------------------------------------------</span></td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">averages</span>[which.max(<span class="pl-smi">averages</span><span class="pl-k">$</span><span class="pl-smi">steps</span>),]</td>
+      </tr>
+      <tr>
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line"><span class="pl-c">## ----how_many_missing----------------------------------------------------</span></td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">missing</span> <span class="pl-k">&lt;-</span> is.na(<span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">steps</span>)</td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line"><span class="pl-c"># How many missing</span></td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">table(<span class="pl-smi">missing</span>)</td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line"><span class="pl-c">## ------------------------------------------------------------------------</span></td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line"><span class="pl-c"># Replace each missing value with the mean value of its 5-minute interval</span></td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line"><span class="pl-en">fill.value</span> <span class="pl-k">&lt;-</span> <span class="pl-k">function</span>(<span class="pl-smi">steps</span>, <span class="pl-smi">interval</span>) {</td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">filled</span> <span class="pl-k">&lt;-</span> <span class="pl-c1">NA</span></td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> (<span class="pl-k">!</span>is.na(<span class="pl-smi">steps</span>))</td>
+      </tr>
+      <tr>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">filled</span> <span class="pl-k">&lt;-</span> c(<span class="pl-smi">steps</span>)</td>
+      </tr>
+      <tr>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">else</span></td>
+      </tr>
+      <tr>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">filled</span> <span class="pl-k">&lt;-</span> (<span class="pl-smi">averages</span>[<span class="pl-smi">averages</span><span class="pl-k">$</span><span class="pl-smi">interval</span><span class="pl-k">==</span><span class="pl-smi">interval</span>, <span class="pl-s"><span class="pl-pds">&quot;</span>steps<span class="pl-pds">&quot;</span></span>])</td>
+      </tr>
+      <tr>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span>(<span class="pl-smi">filled</span>)</td>
+      </tr>
+      <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">filled.data</span> <span class="pl-k">&lt;-</span> <span class="pl-smi">data</span></td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">steps</span> <span class="pl-k">&lt;-</span> mapply(<span class="pl-smi">fill.value</span>, <span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">steps</span>, <span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">interval</span>)</td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line"><span class="pl-c">## ------------------------------------------------------------------------</span></td>
+      </tr>
+      <tr>
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">total.steps</span> <span class="pl-k">&lt;-</span> tapply(<span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">steps</span>, <span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">date</span>, <span class="pl-v">FUN</span><span class="pl-k">=</span><span class="pl-smi">sum</span>)</td>
+      </tr>
+      <tr>
+        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">qplot(<span class="pl-smi">total.steps</span>, <span class="pl-v">binwidth</span><span class="pl-k">=</span><span class="pl-c1">1000</span>, <span class="pl-v">xlab</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>total number of steps taken each day<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line">mean(<span class="pl-smi">total.steps</span>)</td>
+      </tr>
+      <tr>
+        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line">median(<span class="pl-smi">total.steps</span>)</td>
+      </tr>
+      <tr>
+        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td id="LC55" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line"><span class="pl-c">## ------------------------------------------------------------------------</span></td>
+      </tr>
+      <tr>
+        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line"><span class="pl-en">weekday.or.weekend</span> <span class="pl-k">&lt;-</span> <span class="pl-k">function</span>(<span class="pl-smi">date</span>) {</td>
+      </tr>
+      <tr>
+        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">day</span> <span class="pl-k">&lt;-</span> weekdays(<span class="pl-smi">date</span>)</td>
+      </tr>
+      <tr>
+        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> (<span class="pl-smi">day</span> <span class="pl-k">%in%</span> c(<span class="pl-s"><span class="pl-pds">&quot;</span>Monday<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>Tuesday<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>Wednesday<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>Thursday<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>Friday<span class="pl-pds">&quot;</span></span>))</td>
+      </tr>
+      <tr>
+        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>weekday<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
+        <td id="LC61" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">else</span> <span class="pl-k">if</span> (<span class="pl-smi">day</span> <span class="pl-k">%in%</span> c(<span class="pl-s"><span class="pl-pds">&quot;</span>Saturday<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>Sunday<span class="pl-pds">&quot;</span></span>))</td>
+      </tr>
+      <tr>
+        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
+        <td id="LC62" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>weekend<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
+        <td id="LC63" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">else</span></td>
+      </tr>
+      <tr>
+        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
+        <td id="LC64" class="blob-code blob-code-inner js-file-line">        stop(<span class="pl-s"><span class="pl-pds">&quot;</span>invalid date<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
+        <td id="LC65" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
+        <td id="LC66" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">date</span> <span class="pl-k">&lt;-</span> as.Date(<span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">date</span>)</td>
+      </tr>
+      <tr>
+        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
+        <td id="LC67" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">day</span> <span class="pl-k">&lt;-</span> sapply(<span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">date</span>, <span class="pl-v">FUN</span><span class="pl-k">=</span><span class="pl-smi">weekday.or.weekend</span>)</td>
+      </tr>
+      <tr>
+        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
+        <td id="LC68" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
+        <td id="LC69" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
+        <td id="LC70" class="blob-code blob-code-inner js-file-line"><span class="pl-c">## ------------------------------------------------------------------------</span></td>
+      </tr>
+      <tr>
+        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
+        <td id="LC71" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">averages</span> <span class="pl-k">&lt;-</span> aggregate(<span class="pl-smi">steps</span> <span class="pl-k">~</span> <span class="pl-smi">interval</span> <span class="pl-k">+</span> <span class="pl-smi">day</span>, <span class="pl-v">data</span><span class="pl-k">=</span><span class="pl-smi">filled.data</span>, <span class="pl-smi">mean</span>)</td>
+      </tr>
+      <tr>
+        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
+        <td id="LC72" class="blob-code blob-code-inner js-file-line">ggplot(<span class="pl-smi">averages</span>, aes(<span class="pl-smi">interval</span>, <span class="pl-smi">steps</span>)) <span class="pl-k">+</span> geom_line() <span class="pl-k">+</span> facet_grid(<span class="pl-smi">day</span> <span class="pl-k">~</span> .) <span class="pl-k">+</span></td>
+      </tr>
+      <tr>
+        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
+        <td id="LC73" class="blob-code blob-code-inner js-file-line">    xlab(<span class="pl-s"><span class="pl-pds">&quot;</span>5-minute interval<span class="pl-pds">&quot;</span></span>) <span class="pl-k">+</span> ylab(<span class="pl-s"><span class="pl-pds">&quot;</span>Number of steps<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
+        <td id="LC74" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+</table>
 
-<div class="highlight highlight-source-r"><pre>unzip(<span class="pl-v">zipfile</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>activity.zip<span class="pl-pds">"</span></span>)
-<span class="pl-smi">data</span> <span class="pl-k">&lt;-</span> read.csv(<span class="pl-s"><span class="pl-pds">"</span>activity.csv<span class="pl-pds">"</span></span>)</pre></div>
-
-<h2><a id="user-content-what-is-mean-total-number-of-steps-taken-per-day" class="anchor" href="#what-is-mean-total-number-of-steps-taken-per-day" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What is mean total number of steps taken per day?</h2>
-
-<div class="highlight highlight-source-r"><pre>library(<span class="pl-smi">ggplot2</span>)
-<span class="pl-smi">total.steps</span> <span class="pl-k">&lt;-</span> tapply(<span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">steps</span>, <span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">date</span>, <span class="pl-v">FUN</span><span class="pl-k">=</span><span class="pl-smi">sum</span>, <span class="pl-v">na.rm</span><span class="pl-k">=</span><span class="pl-c1">TRUE</span>)
-qplot(<span class="pl-smi">total.steps</span>, <span class="pl-v">binwidth</span><span class="pl-k">=</span><span class="pl-c1">1000</span>, <span class="pl-v">xlab</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>total number of steps taken each day<span class="pl-pds">"</span></span>)
-mean(<span class="pl-smi">total.steps</span>, <span class="pl-v">na.rm</span><span class="pl-k">=</span><span class="pl-c1">TRUE</span>)
-median(<span class="pl-smi">total.steps</span>, <span class="pl-v">na.rm</span><span class="pl-k">=</span><span class="pl-c1">TRUE</span>)</pre></div>
-
-<h2><a id="user-content-what-is-the-average-daily-activity-pattern" class="anchor" href="#what-is-the-average-daily-activity-pattern" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What is the average daily activity pattern?</h2>
-
-<div class="highlight highlight-source-r"><pre>library(<span class="pl-smi">ggplot2</span>)
-<span class="pl-smi">averages</span> <span class="pl-k">&lt;-</span> aggregate(<span class="pl-v">x</span><span class="pl-k">=</span><span class="pl-k">list</span>(<span class="pl-v">steps</span><span class="pl-k">=</span><span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">steps</span>), <span class="pl-v">by</span><span class="pl-k">=</span><span class="pl-k">list</span>(<span class="pl-v">interval</span><span class="pl-k">=</span><span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">interval</span>),
-                      <span class="pl-v">FUN</span><span class="pl-k">=</span><span class="pl-smi">mean</span>, <span class="pl-v">na.rm</span><span class="pl-k">=</span><span class="pl-c1">TRUE</span>)
-ggplot(<span class="pl-v">data</span><span class="pl-k">=</span><span class="pl-smi">averages</span>, aes(<span class="pl-v">x</span><span class="pl-k">=</span><span class="pl-smi">interval</span>, <span class="pl-v">y</span><span class="pl-k">=</span><span class="pl-smi">steps</span>)) <span class="pl-k">+</span>
-    geom_line() <span class="pl-k">+</span>
-    xlab(<span class="pl-s"><span class="pl-pds">"</span>5-minute interval<span class="pl-pds">"</span></span>) <span class="pl-k">+</span>
-    ylab(<span class="pl-s"><span class="pl-pds">"</span>average number of steps taken<span class="pl-pds">"</span></span>)</pre></div>
-
-<p>On average across all the days in the dataset, the 5-minute interval contains
-the maximum number of steps?</p>
-
-<div class="highlight highlight-source-r"><pre><span class="pl-smi">averages</span>[which.max(<span class="pl-smi">averages</span><span class="pl-k">$</span><span class="pl-smi">steps</span>),]</pre></div>
-
-<h2><a id="user-content-imputing-missing-values" class="anchor" href="#imputing-missing-values" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Imputing missing values</h2>
-
-<p>There are many days/intervals where there are missing values (coded as <code>NA</code>). The presence of missing days may introduce bias into some calculations or summaries of the data.</p>
-
-<div class="highlight highlight-source-r"><pre><span class="pl-smi">missing</span> <span class="pl-k">&lt;-</span> is.na(<span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">steps</span>)
-<span class="pl-c"># How many missing</span>
-table(<span class="pl-smi">missing</span>)</pre></div>
-
-<p>All of the missing values are filled in with mean value for that 5-minute
-interval.</p>
-
-<div class="highlight highlight-source-r"><pre><span class="pl-c"># Replace each missing value with the mean value of its 5-minute interval</span>
-<span class="pl-en">fill.value</span> <span class="pl-k">&lt;-</span> <span class="pl-k">function</span>(<span class="pl-smi">steps</span>, <span class="pl-smi">interval</span>) {
-    <span class="pl-smi">filled</span> <span class="pl-k">&lt;-</span> <span class="pl-c1">NA</span>
-    <span class="pl-k">if</span> (<span class="pl-k">!</span>is.na(<span class="pl-smi">steps</span>))
-        <span class="pl-smi">filled</span> <span class="pl-k">&lt;-</span> c(<span class="pl-smi">steps</span>)
-    <span class="pl-k">else</span>
-        <span class="pl-smi">filled</span> <span class="pl-k">&lt;-</span> (<span class="pl-smi">averages</span>[<span class="pl-smi">averages</span><span class="pl-k">$</span><span class="pl-smi">interval</span><span class="pl-k">==</span><span class="pl-smi">interval</span>, <span class="pl-s"><span class="pl-pds">"</span>steps<span class="pl-pds">"</span></span>])
-    <span class="pl-k">return</span>(<span class="pl-smi">filled</span>)
-}
-<span class="pl-smi">filled.data</span> <span class="pl-k">&lt;-</span> <span class="pl-smi">data</span>
-<span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">steps</span> <span class="pl-k">&lt;-</span> mapply(<span class="pl-smi">fill.value</span>, <span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">steps</span>, <span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">interval</span>)</pre></div>
-
-<p>Now, using the filled data set, let's make a histogram of the total number of steps taken each day and calculate the mean and median total number of steps.</p>
-
-<div class="highlight highlight-source-r"><pre><span class="pl-smi">total.steps</span> <span class="pl-k">&lt;-</span> tapply(<span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">steps</span>, <span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">date</span>, <span class="pl-v">FUN</span><span class="pl-k">=</span><span class="pl-smi">sum</span>)
-qplot(<span class="pl-smi">total.steps</span>, <span class="pl-v">binwidth</span><span class="pl-k">=</span><span class="pl-c1">1000</span>, <span class="pl-v">xlab</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>total number of steps taken each day<span class="pl-pds">"</span></span>)
-mean(<span class="pl-smi">total.steps</span>)
-median(<span class="pl-smi">total.steps</span>)</pre></div>
-
-<p>Mean and median values are higher after imputing missing data. The reason is
-that in the original data, there are some days with <code>steps</code> values <code>NA</code> for 
-any <code>interval</code>. The total number of steps taken in such days are set to 0s by
-default. However, after replacing missing <code>steps</code> values with the mean <code>steps</code>
-of associated <code>interval</code> value, these 0 values are removed from the histogram
-of total number of steps taken each day.</p>
-
-<h2><a id="user-content-are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="anchor" href="#are-there-differences-in-activity-patterns-between-weekdays-and-weekends" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Are there differences in activity patterns between weekdays and weekends?</h2>
-
-<p>First, let's find the day of the week for each measurement in the dataset. In
-this part, we use the dataset with the filled-in values.</p>
-
-<div class="highlight highlight-source-r"><pre><span class="pl-en">weekday.or.weekend</span> <span class="pl-k">&lt;-</span> <span class="pl-k">function</span>(<span class="pl-smi">date</span>) {
-    <span class="pl-smi">day</span> <span class="pl-k">&lt;-</span> weekdays(<span class="pl-smi">date</span>)
-    <span class="pl-k">if</span> (<span class="pl-smi">day</span> <span class="pl-k">%in%</span> c(<span class="pl-s"><span class="pl-pds">"</span>Monday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Tuesday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Wednesday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Thursday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Friday<span class="pl-pds">"</span></span>))
-        <span class="pl-k">return</span>(<span class="pl-s"><span class="pl-pds">"</span>weekday<span class="pl-pds">"</span></span>)
-    <span class="pl-k">else</span> <span class="pl-k">if</span> (<span class="pl-smi">day</span> <span class="pl-k">%in%</span> c(<span class="pl-s"><span class="pl-pds">"</span>Saturday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Sunday<span class="pl-pds">"</span></span>))
-        <span class="pl-k">return</span>(<span class="pl-s"><span class="pl-pds">"</span>weekend<span class="pl-pds">"</span></span>)
-    <span class="pl-k">else</span>
-        stop(<span class="pl-s"><span class="pl-pds">"</span>invalid date<span class="pl-pds">"</span></span>)
-}
-<span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">date</span> <span class="pl-k">&lt;-</span> as.Date(<span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">date</span>)
-<span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">day</span> <span class="pl-k">&lt;-</span> sapply(<span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">date</span>, <span class="pl-v">FUN</span><span class="pl-k">=</span><span class="pl-smi">weekday.or.weekend</span>)</pre></div>
-
-<p>Now, let's make a panel plot containing plots of average number of steps taken
-on weekdays and weekends.</p>
-
-<div class="highlight highlight-source-r"><pre><span class="pl-smi">averages</span> <span class="pl-k">&lt;-</span> aggregate(<span class="pl-smi">steps</span> <span class="pl-k">~</span> <span class="pl-smi">interval</span> <span class="pl-k">+</span> <span class="pl-smi">day</span>, <span class="pl-v">data</span><span class="pl-k">=</span><span class="pl-smi">filled.data</span>, <span class="pl-smi">mean</span>)
-ggplot(<span class="pl-smi">averages</span>, aes(<span class="pl-smi">interval</span>, <span class="pl-smi">steps</span>)) <span class="pl-k">+</span> geom_line() <span class="pl-k">+</span> facet_grid(<span class="pl-smi">day</span> <span class="pl-k">~</span> .) <span class="pl-k">+</span>
-    xlab(<span class="pl-s"><span class="pl-pds">"</span>5-minute interval<span class="pl-pds">"</span></span>) <span class="pl-k">+</span> ylab(<span class="pl-s"><span class="pl-pds">"</span>Number of steps<span class="pl-pds">"</span></span>)</pre></div>
-</article>
   </div>
 
 </div>
@@ -718,7 +945,7 @@ ggplot(<span class="pl-smi">averages</span>, aes(<span class="pl-smi">interval</
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2016 <span title="0.08020s from github-fe153-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2016 <span title="0.19936s from github-fe119-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>

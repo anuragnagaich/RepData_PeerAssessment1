@@ -23,7 +23,7 @@
     <meta http-equiv="Content-Language" content="en">
     <meta name="viewport" content="width=device-width">
     
-    <title>coursera-repdata/PA1_template.Rmd at master · sefakilic/coursera-repdata</title>
+    <title>coursera-repdata/PA1_template.md at master · sefakilic/coursera-repdata</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -43,7 +43,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/MTkzNjgwMTE6NmVjZmM1NTU3YjJlZWM1YjZjMDAzOGM3MmM2NzRhMTc6ZTEwMTgwNDY4MWVkYjVlYTMyYjYxNjcwMDRhNGU3NzY5OTBhZTY2NTdhYjE0ZDRmZTBlOTQxZGVkMzJkYmFkYQ==--8aba9bbcedc77bed2bba24ce32f6176f17364ce9">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTkzNjgwMTE6NmVjZmM1NTU3YjJlZWM1YjZjMDAzOGM3MmM2NzRhMTc6Y2ViMWNiZGIxYjNkZGI3Nzg2ZWI3ZTQ2Nzc3ZWZhZjQ0MWQ3OTFhOTgyOGRjODk1YWY1NGU3OWQ3OWVmMjdkMA==--adb84b3ea0c726a8d08d62b844925011f49aa225">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -55,7 +55,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="CA3BE73D:6CA4:AB3B25A:57A2FCDE" name="octolytics-dimension-request_id" /><meta content="19368011" name="octolytics-actor-id" /><meta content="anuragnagaich" name="octolytics-actor-login" /><meta content="528915d4755387a0f816342d6785e0fcf88df8ce1ec13217dc018c49dec768be" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="CA3BE73D:6CA4:AB3BF18:57A2FCEC" name="octolytics-dimension-request_id" /><meta content="19368011" name="octolytics-actor-id" /><meta content="anuragnagaich" name="octolytics-actor-login" /><meta content="528915d4755387a0f816342d6785e0fcf88df8ce1ec13217dc018c49dec768be" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -68,7 +68,7 @@
     <meta name="user-login" content="anuragnagaich">
 
         <meta name="expected-hostname" content="github.com">
-      <meta name="js-proxy-site-detection-payload" content="ZDNlM2Y3OTFkMGE5NmI1MGQ0M2E1ZWI2NWM3ODQxOGRjZWY1Y2FlYzc4ODIyZTQ4ZjU1ZGI4MGVhYTJhNTI5OXx7InJlbW90ZV9hZGRyZXNzIjoiMjAyLjU5LjIzMS42MSIsInJlcXVlc3RfaWQiOiJDQTNCRTczRDo2Q0E0OkFCM0IyNUE6NTdBMkZDREUiLCJ0aW1lc3RhbXAiOjE0NzAyOTkzNjV9">
+      <meta name="js-proxy-site-detection-payload" content="YWJhMDA4MTdhNDVjOWIwY2FiZGFiYzA2MWYwNWM5YThhNGU0MTNjOGJiNzMxNWMyYzMwNmRkM2ZiODM2ZWY0Ynx7InJlbW90ZV9hZGRyZXNzIjoiMjAyLjU5LjIzMS42MSIsInJlcXVlc3RfaWQiOiJDQTNCRTczRDo2Q0E0OkFCM0JGMTg6NTdBMkZDRUMiLCJ0aW1lc3RhbXAiOjE0NzAyOTkzNzh9">
 
 
       <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
@@ -88,7 +88,7 @@
   <link href="https://github.com/sefakilic/coursera-repdata/commits/master.atom" rel="alternate" title="Recent Commits to coursera-repdata:master" type="application/atom+xml">
 
 
-      <link rel="canonical" href="https://github.com/sefakilic/coursera-repdata/blob/master/project1/PA1_template.Rmd" data-pjax-transient>
+      <link rel="canonical" href="https://github.com/sefakilic/coursera-repdata/blob/master/project1/PA1_template.md" data-pjax-transient>
   </head>
 
 
@@ -218,7 +218,7 @@
           Settings
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="hk3pxrbWie/ENHVu3TRlU4tKIUD2l8n7QhXzsyvkrAH4IemwOohIucwfskSRatHSkDVNM00bEF/R7oZmcJUx3Q==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="htytJ+YlZEi5jPc6ffDzjFE78bWaZE9nY8vwk4/BB/rhr/d4FifNvsNunS4mHxEkyVX0/9ytKEjKQHm0687G5w==" /></div>
           <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -254,7 +254,7 @@
 <ul class="pagehead-actions">
 
   <li>
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="5YNA09Po2vejkmBV1OSA1LFQSZlAv/IuiYDA7yNZHkIfd6Um0HY/pr/iGZumSFaruBxmT1kdmI0r7kSHErMFqg==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="19899531" />
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="gOBWB6m5yj6ZPuJe1Wx16rtjrxyWdAxNh5+mFYAMXQOyxmeLXoxSOJ+Lnqg5/9wbxAU64Z+nqbbFUtADZehZ/g==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="19899531" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/sefakilic/coursera-repdata/subscription"
@@ -329,7 +329,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/unstar" class="starred" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="+2VYIVK8UQzU1BKeAnRQpv2uJC0uRcSqwGTuOC1+ZEHfrxy7GpNBi6cVauytjLa1snKFjtrfDkAlgfSWOaJrGA==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/unstar" class="starred" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="DeU41bgQqiw3UIm5DfoT8cPNUiUOs+ZxNdPCuukfVutVq+w6LcrHxsj4Aaa18RKVemGOZSH/4b6/dHSDGFvSeg==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar sefakilic/coursera-repdata"
@@ -341,7 +341,7 @@
           2
         </a>
 </form>
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/star" class="unstarred" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="PSw3YVn8mwHJb2NlUh9F1RGVPwsh2ojK+ereP3RyB49hdWSgSD1jsxs12FIj4uaAJ4wCFtSASN1ABsqAQNPWng==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/star" class="unstarred" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="gqn+XAXAG6h8AoFnJnAqo9snSFJn213bERxTKaPhv31jO/OVXVtRMicdn0J00FB3+oSmImLvJlBOpYiwR7VlTg==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star sefakilic/coursera-repdata"
@@ -357,7 +357,7 @@
   </li>
 
   <li>
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/fork" class="btn-with-count" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="tgj00ne5DxBnXJ+VPVzbA3OWdisgeLlv9kzcEvbvNKTfo4EiA8w4K5RKlqkIsmUWHkHKZcTuttSi/nfYxbg6GQ==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/fork" class="btn-with-count" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="p5w00l8cMg7d/o66jCSK15ahMC5qBPBMlC8bPAeuWRZjqthCQgGndtS3eMEPZK2nR/xI+ZImlt3gCb6iqt+RmQ==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -434,9 +434,9 @@
 
     
 
-<a href="/sefakilic/coursera-repdata/blob/887120ed7a37211dd2d2bdc05dbe0e81e0e1ae7d/project1/PA1_template.Rmd" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/sefakilic/coursera-repdata/blob/887120ed7a37211dd2d2bdc05dbe0e81e0e1ae7d/project1/PA1_template.md" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:6d6806dc24f7cf07b8d8f21bab535284 -->
+<!-- blob contrib key: blob_contributors:v21:8a4aa3e01c1a68b226587289c2ddf6f0 -->
 
 <div class="file-navigation js-zeroclipboard-container">
   
@@ -478,7 +478,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/sefakilic/coursera-repdata/blob/master/project1/PA1_template.Rmd"
+               href="/sefakilic/coursera-repdata/blob/master/project1/PA1_template.md"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -515,7 +515,7 @@
     <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
   </div>
   <div class="breadcrumb js-zeroclipboard-target">
-    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/sefakilic/coursera-repdata"><span>coursera-repdata</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/sefakilic/coursera-repdata/tree/master/project1"><span>project1</span></a></span><span class="separator">/</span><strong class="final-path">PA1_template.Rmd</strong>
+    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/sefakilic/coursera-repdata"><span>coursera-repdata</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/sefakilic/coursera-repdata/tree/master/project1"><span>project1</span></a></span><span class="separator">/</span><strong class="final-path">PA1_template.md</strong>
   </div>
 </div>
 
@@ -557,24 +557,24 @@
   <div class="file-actions">
 
     <div class="btn-group">
-      <a href="/sefakilic/coursera-repdata/raw/master/project1/PA1_template.Rmd" class="btn btn-sm " id="raw-url">Raw</a>
-        <a href="/sefakilic/coursera-repdata/blame/master/project1/PA1_template.Rmd" class="btn btn-sm js-update-url-with-hash">Blame</a>
-      <a href="/sefakilic/coursera-repdata/commits/master/project1/PA1_template.Rmd" class="btn btn-sm " rel="nofollow">History</a>
+      <a href="/sefakilic/coursera-repdata/raw/master/project1/PA1_template.md" class="btn btn-sm " id="raw-url">Raw</a>
+        <a href="/sefakilic/coursera-repdata/blame/master/project1/PA1_template.md" class="btn btn-sm js-update-url-with-hash">Blame</a>
+      <a href="/sefakilic/coursera-repdata/commits/master/project1/PA1_template.md" class="btn btn-sm " rel="nofollow">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
-           href="github-windows://openRepo/https://github.com/sefakilic/coursera-repdata?branch=master&amp;filepath=project1%2FPA1_template.Rmd"
+           href="github-windows://openRepo/https://github.com/sefakilic/coursera-repdata?branch=master&amp;filepath=project1%2FPA1_template.md"
            aria-label="Open this file in GitHub Desktop"
            data-ga-click="Repository, open with desktop, type:windows">
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"></path></svg>
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/edit/master/project1/PA1_template.Rmd" class="inline-form js-update-url-with-hash" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="mKdLCvtx6HM1Vd6MiLD14A0oXTcDiyxJeBCf9VJ29rnwX4gOMlW182PlXSuf+pVWSkjFhhsIBNYrve4ATBjIqg==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/edit/master/project1/PA1_template.md" class="inline-form js-update-url-with-hash" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="rfFH2HSe/3nlv4X6UblYzeZejztBr7Iz6VbL9pikgKNO/xW+jl61sB/+NOZ2F77HjfGb+mBRuZe1eDFgIs7EYA==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Edit the file in your fork of this project" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"></path></svg>
           </button>
-</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/delete/master/project1/PA1_template.Rmd" class="inline-form" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Cb1D/sfJujxm1umy3Zi9v54+K3jPFkYi3PJTNm9jvKVE8bA4GD70BQkTPfxg2ktE3i9Kk4SNVlaSuG2QsEnfAw==" /></div>
+</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sefakilic/coursera-repdata/delete/master/project1/PA1_template.md" class="inline-form" data-form-nonce="c20406b7487cf93f3c8cb059b6c353a468d7aa1f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="81HJ+t0zd3mNRONcrEliyPn+9MpbvysQOYmXUpmpCS7fE7pIk8svVHm9a8yDmqlAzntHBxUS8RqxBFFRjba7Tw==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Delete the file in your fork of this project" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"></path></svg>
@@ -582,9 +582,9 @@
 </form>  </div>
 
   <div class="file-info">
-      102 lines (87 sloc)
+      160 lines (113 sloc)
       <span class="file-info-divider"></span>
-    3.37 KB
+    3.81 KB
   </div>
 </div>
 
@@ -594,31 +594,45 @@
 
 <h2><a id="user-content-loading-and-preprocessing-the-data" class="anchor" href="#loading-and-preprocessing-the-data" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Loading and preprocessing the data</h2>
 
-<div class="highlight highlight-source-r"><pre>unzip(<span class="pl-v">zipfile</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>activity.zip<span class="pl-pds">"</span></span>)
+<div class="highlight highlight-source-r"><pre>unzip(<span class="pl-v">zipfile</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>activity.zip<span class="pl-pds">"</span></span>)
 <span class="pl-smi">data</span> <span class="pl-k">&lt;-</span> read.csv(<span class="pl-s"><span class="pl-pds">"</span>activity.csv<span class="pl-pds">"</span></span>)</pre></div>
 
 <h2><a id="user-content-what-is-mean-total-number-of-steps-taken-per-day" class="anchor" href="#what-is-mean-total-number-of-steps-taken-per-day" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What is mean total number of steps taken per day?</h2>
 
 <div class="highlight highlight-source-r"><pre>library(<span class="pl-smi">ggplot2</span>)
-<span class="pl-smi">total.steps</span> <span class="pl-k">&lt;-</span> tapply(<span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">steps</span>, <span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">date</span>, <span class="pl-v">FUN</span><span class="pl-k">=</span><span class="pl-smi">sum</span>, <span class="pl-v">na.rm</span><span class="pl-k">=</span><span class="pl-c1">TRUE</span>)
-qplot(<span class="pl-smi">total.steps</span>, <span class="pl-v">binwidth</span><span class="pl-k">=</span><span class="pl-c1">1000</span>, <span class="pl-v">xlab</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>total number of steps taken each day<span class="pl-pds">"</span></span>)
-mean(<span class="pl-smi">total.steps</span>, <span class="pl-v">na.rm</span><span class="pl-k">=</span><span class="pl-c1">TRUE</span>)
-median(<span class="pl-smi">total.steps</span>, <span class="pl-v">na.rm</span><span class="pl-k">=</span><span class="pl-c1">TRUE</span>)</pre></div>
+<span class="pl-smi">total.steps</span> <span class="pl-k">&lt;-</span> tapply(<span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">steps</span>, <span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">date</span>, <span class="pl-v">FUN</span> <span class="pl-k">=</span> <span class="pl-smi">sum</span>, <span class="pl-v">na.rm</span> <span class="pl-k">=</span> <span class="pl-c1">TRUE</span>)
+qplot(<span class="pl-smi">total.steps</span>, <span class="pl-v">binwidth</span> <span class="pl-k">=</span> <span class="pl-c1">1000</span>, <span class="pl-v">xlab</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>total number of steps taken each day<span class="pl-pds">"</span></span>)</pre></div>
+
+<p><a href="/sefakilic/coursera-repdata/blob/master/project1/figure/unnamed-chunk-1.png" target="_blank"><img src="/sefakilic/coursera-repdata/raw/master/project1/figure/unnamed-chunk-1.png" alt="plot of chunk unnamed-chunk-1" style="max-width:100%;"></a> </p>
+
+<div class="highlight highlight-source-r"><pre>mean(<span class="pl-smi">total.steps</span>, <span class="pl-v">na.rm</span> <span class="pl-k">=</span> <span class="pl-c1">TRUE</span>)</pre></div>
+
+<pre><code>## [1] 9354
+</code></pre>
+
+<div class="highlight highlight-source-r"><pre>median(<span class="pl-smi">total.steps</span>, <span class="pl-v">na.rm</span> <span class="pl-k">=</span> <span class="pl-c1">TRUE</span>)</pre></div>
+
+<pre><code>## [1] 10395
+</code></pre>
 
 <h2><a id="user-content-what-is-the-average-daily-activity-pattern" class="anchor" href="#what-is-the-average-daily-activity-pattern" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What is the average daily activity pattern?</h2>
 
 <div class="highlight highlight-source-r"><pre>library(<span class="pl-smi">ggplot2</span>)
-<span class="pl-smi">averages</span> <span class="pl-k">&lt;-</span> aggregate(<span class="pl-v">x</span><span class="pl-k">=</span><span class="pl-k">list</span>(<span class="pl-v">steps</span><span class="pl-k">=</span><span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">steps</span>), <span class="pl-v">by</span><span class="pl-k">=</span><span class="pl-k">list</span>(<span class="pl-v">interval</span><span class="pl-k">=</span><span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">interval</span>),
-                      <span class="pl-v">FUN</span><span class="pl-k">=</span><span class="pl-smi">mean</span>, <span class="pl-v">na.rm</span><span class="pl-k">=</span><span class="pl-c1">TRUE</span>)
-ggplot(<span class="pl-v">data</span><span class="pl-k">=</span><span class="pl-smi">averages</span>, aes(<span class="pl-v">x</span><span class="pl-k">=</span><span class="pl-smi">interval</span>, <span class="pl-v">y</span><span class="pl-k">=</span><span class="pl-smi">steps</span>)) <span class="pl-k">+</span>
-    geom_line() <span class="pl-k">+</span>
-    xlab(<span class="pl-s"><span class="pl-pds">"</span>5-minute interval<span class="pl-pds">"</span></span>) <span class="pl-k">+</span>
+<span class="pl-smi">averages</span> <span class="pl-k">&lt;-</span> aggregate(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-k">list</span>(<span class="pl-v">steps</span> <span class="pl-k">=</span> <span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">steps</span>), <span class="pl-v">by</span> <span class="pl-k">=</span> <span class="pl-k">list</span>(<span class="pl-v">interval</span> <span class="pl-k">=</span> <span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">interval</span>), 
+    <span class="pl-v">FUN</span> <span class="pl-k">=</span> <span class="pl-smi">mean</span>, <span class="pl-v">na.rm</span> <span class="pl-k">=</span> <span class="pl-c1">TRUE</span>)
+ggplot(<span class="pl-v">data</span> <span class="pl-k">=</span> <span class="pl-smi">averages</span>, aes(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-smi">interval</span>, <span class="pl-v">y</span> <span class="pl-k">=</span> <span class="pl-smi">steps</span>)) <span class="pl-k">+</span> geom_line() <span class="pl-k">+</span> xlab(<span class="pl-s"><span class="pl-pds">"</span>5-minute interval<span class="pl-pds">"</span></span>) <span class="pl-k">+</span> 
     ylab(<span class="pl-s"><span class="pl-pds">"</span>average number of steps taken<span class="pl-pds">"</span></span>)</pre></div>
+
+<p><a href="/sefakilic/coursera-repdata/blob/master/project1/figure/unnamed-chunk-2.png" target="_blank"><img src="/sefakilic/coursera-repdata/raw/master/project1/figure/unnamed-chunk-2.png" alt="plot of chunk unnamed-chunk-2" style="max-width:100%;"></a> </p>
 
 <p>On average across all the days in the dataset, the 5-minute interval contains
 the maximum number of steps?</p>
 
-<div class="highlight highlight-source-r"><pre><span class="pl-smi">averages</span>[which.max(<span class="pl-smi">averages</span><span class="pl-k">$</span><span class="pl-smi">steps</span>),]</pre></div>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">averages</span>[which.max(<span class="pl-smi">averages</span><span class="pl-k">$</span><span class="pl-smi">steps</span>), ]</pre></div>
+
+<pre><code>##     interval steps
+## 104      835 206.2
+</code></pre>
 
 <h2><a id="user-content-imputing-missing-values" class="anchor" href="#imputing-missing-values" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Imputing missing values</h2>
 
@@ -628,16 +642,19 @@ the maximum number of steps?</p>
 <span class="pl-c"># How many missing</span>
 table(<span class="pl-smi">missing</span>)</pre></div>
 
+<pre><code>## missing
+## FALSE  TRUE 
+## 15264  2304
+</code></pre>
+
 <p>All of the missing values are filled in with mean value for that 5-minute
 interval.</p>
 
 <div class="highlight highlight-source-r"><pre><span class="pl-c"># Replace each missing value with the mean value of its 5-minute interval</span>
 <span class="pl-en">fill.value</span> <span class="pl-k">&lt;-</span> <span class="pl-k">function</span>(<span class="pl-smi">steps</span>, <span class="pl-smi">interval</span>) {
     <span class="pl-smi">filled</span> <span class="pl-k">&lt;-</span> <span class="pl-c1">NA</span>
-    <span class="pl-k">if</span> (<span class="pl-k">!</span>is.na(<span class="pl-smi">steps</span>))
-        <span class="pl-smi">filled</span> <span class="pl-k">&lt;-</span> c(<span class="pl-smi">steps</span>)
-    <span class="pl-k">else</span>
-        <span class="pl-smi">filled</span> <span class="pl-k">&lt;-</span> (<span class="pl-smi">averages</span>[<span class="pl-smi">averages</span><span class="pl-k">$</span><span class="pl-smi">interval</span><span class="pl-k">==</span><span class="pl-smi">interval</span>, <span class="pl-s"><span class="pl-pds">"</span>steps<span class="pl-pds">"</span></span>])
+    <span class="pl-k">if</span> (<span class="pl-k">!</span>is.na(<span class="pl-smi">steps</span>)) 
+        <span class="pl-smi">filled</span> <span class="pl-k">&lt;-</span> c(<span class="pl-smi">steps</span>) <span class="pl-k">else</span> <span class="pl-smi">filled</span> <span class="pl-k">&lt;-</span> (<span class="pl-smi">averages</span>[<span class="pl-smi">averages</span><span class="pl-k">$</span><span class="pl-smi">interval</span> <span class="pl-k">==</span> <span class="pl-smi">interval</span>, <span class="pl-s"><span class="pl-pds">"</span>steps<span class="pl-pds">"</span></span>])
     <span class="pl-k">return</span>(<span class="pl-smi">filled</span>)
 }
 <span class="pl-smi">filled.data</span> <span class="pl-k">&lt;-</span> <span class="pl-smi">data</span>
@@ -645,10 +662,20 @@ interval.</p>
 
 <p>Now, using the filled data set, let's make a histogram of the total number of steps taken each day and calculate the mean and median total number of steps.</p>
 
-<div class="highlight highlight-source-r"><pre><span class="pl-smi">total.steps</span> <span class="pl-k">&lt;-</span> tapply(<span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">steps</span>, <span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">date</span>, <span class="pl-v">FUN</span><span class="pl-k">=</span><span class="pl-smi">sum</span>)
-qplot(<span class="pl-smi">total.steps</span>, <span class="pl-v">binwidth</span><span class="pl-k">=</span><span class="pl-c1">1000</span>, <span class="pl-v">xlab</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>total number of steps taken each day<span class="pl-pds">"</span></span>)
-mean(<span class="pl-smi">total.steps</span>)
-median(<span class="pl-smi">total.steps</span>)</pre></div>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">total.steps</span> <span class="pl-k">&lt;-</span> tapply(<span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">steps</span>, <span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">date</span>, <span class="pl-v">FUN</span> <span class="pl-k">=</span> <span class="pl-smi">sum</span>)
+qplot(<span class="pl-smi">total.steps</span>, <span class="pl-v">binwidth</span> <span class="pl-k">=</span> <span class="pl-c1">1000</span>, <span class="pl-v">xlab</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>total number of steps taken each day<span class="pl-pds">"</span></span>)</pre></div>
+
+<p><a href="/sefakilic/coursera-repdata/blob/master/project1/figure/unnamed-chunk-5.png" target="_blank"><img src="/sefakilic/coursera-repdata/raw/master/project1/figure/unnamed-chunk-5.png" alt="plot of chunk unnamed-chunk-5" style="max-width:100%;"></a> </p>
+
+<div class="highlight highlight-source-r"><pre>mean(<span class="pl-smi">total.steps</span>)</pre></div>
+
+<pre><code>## [1] 10766
+</code></pre>
+
+<div class="highlight highlight-source-r"><pre>median(<span class="pl-smi">total.steps</span>)</pre></div>
+
+<pre><code>## [1] 10766
+</code></pre>
 
 <p>Mean and median values are higher after imputing missing data. The reason is
 that in the original data, there are some days with <code>steps</code> values <code>NA</code> for 
@@ -664,22 +691,21 @@ this part, we use the dataset with the filled-in values.</p>
 
 <div class="highlight highlight-source-r"><pre><span class="pl-en">weekday.or.weekend</span> <span class="pl-k">&lt;-</span> <span class="pl-k">function</span>(<span class="pl-smi">date</span>) {
     <span class="pl-smi">day</span> <span class="pl-k">&lt;-</span> weekdays(<span class="pl-smi">date</span>)
-    <span class="pl-k">if</span> (<span class="pl-smi">day</span> <span class="pl-k">%in%</span> c(<span class="pl-s"><span class="pl-pds">"</span>Monday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Tuesday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Wednesday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Thursday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Friday<span class="pl-pds">"</span></span>))
-        <span class="pl-k">return</span>(<span class="pl-s"><span class="pl-pds">"</span>weekday<span class="pl-pds">"</span></span>)
-    <span class="pl-k">else</span> <span class="pl-k">if</span> (<span class="pl-smi">day</span> <span class="pl-k">%in%</span> c(<span class="pl-s"><span class="pl-pds">"</span>Saturday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Sunday<span class="pl-pds">"</span></span>))
-        <span class="pl-k">return</span>(<span class="pl-s"><span class="pl-pds">"</span>weekend<span class="pl-pds">"</span></span>)
-    <span class="pl-k">else</span>
-        stop(<span class="pl-s"><span class="pl-pds">"</span>invalid date<span class="pl-pds">"</span></span>)
+    <span class="pl-k">if</span> (<span class="pl-smi">day</span> <span class="pl-k">%in%</span> c(<span class="pl-s"><span class="pl-pds">"</span>Monday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Tuesday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Wednesday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Thursday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Friday<span class="pl-pds">"</span></span>)) 
+        <span class="pl-k">return</span>(<span class="pl-s"><span class="pl-pds">"</span>weekday<span class="pl-pds">"</span></span>) <span class="pl-k">else</span> <span class="pl-k">if</span> (<span class="pl-smi">day</span> <span class="pl-k">%in%</span> c(<span class="pl-s"><span class="pl-pds">"</span>Saturday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Sunday<span class="pl-pds">"</span></span>)) 
+        <span class="pl-k">return</span>(<span class="pl-s"><span class="pl-pds">"</span>weekend<span class="pl-pds">"</span></span>) <span class="pl-k">else</span> stop(<span class="pl-s"><span class="pl-pds">"</span>invalid date<span class="pl-pds">"</span></span>)
 }
 <span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">date</span> <span class="pl-k">&lt;-</span> as.Date(<span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">date</span>)
-<span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">day</span> <span class="pl-k">&lt;-</span> sapply(<span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">date</span>, <span class="pl-v">FUN</span><span class="pl-k">=</span><span class="pl-smi">weekday.or.weekend</span>)</pre></div>
+<span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">day</span> <span class="pl-k">&lt;-</span> sapply(<span class="pl-smi">filled.data</span><span class="pl-k">$</span><span class="pl-smi">date</span>, <span class="pl-v">FUN</span> <span class="pl-k">=</span> <span class="pl-smi">weekday.or.weekend</span>)</pre></div>
 
 <p>Now, let's make a panel plot containing plots of average number of steps taken
 on weekdays and weekends.</p>
 
-<div class="highlight highlight-source-r"><pre><span class="pl-smi">averages</span> <span class="pl-k">&lt;-</span> aggregate(<span class="pl-smi">steps</span> <span class="pl-k">~</span> <span class="pl-smi">interval</span> <span class="pl-k">+</span> <span class="pl-smi">day</span>, <span class="pl-v">data</span><span class="pl-k">=</span><span class="pl-smi">filled.data</span>, <span class="pl-smi">mean</span>)
-ggplot(<span class="pl-smi">averages</span>, aes(<span class="pl-smi">interval</span>, <span class="pl-smi">steps</span>)) <span class="pl-k">+</span> geom_line() <span class="pl-k">+</span> facet_grid(<span class="pl-smi">day</span> <span class="pl-k">~</span> .) <span class="pl-k">+</span>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">averages</span> <span class="pl-k">&lt;-</span> aggregate(<span class="pl-smi">steps</span> <span class="pl-k">~</span> <span class="pl-smi">interval</span> <span class="pl-k">+</span> <span class="pl-smi">day</span>, <span class="pl-v">data</span> <span class="pl-k">=</span> <span class="pl-smi">filled.data</span>, <span class="pl-smi">mean</span>)
+ggplot(<span class="pl-smi">averages</span>, aes(<span class="pl-smi">interval</span>, <span class="pl-smi">steps</span>)) <span class="pl-k">+</span> geom_line() <span class="pl-k">+</span> facet_grid(<span class="pl-smi">day</span> <span class="pl-k">~</span> .) <span class="pl-k">+</span> 
     xlab(<span class="pl-s"><span class="pl-pds">"</span>5-minute interval<span class="pl-pds">"</span></span>) <span class="pl-k">+</span> ylab(<span class="pl-s"><span class="pl-pds">"</span>Number of steps<span class="pl-pds">"</span></span>)</pre></div>
+
+<p><a href="/sefakilic/coursera-repdata/blob/master/project1/figure/unnamed-chunk-7.png" target="_blank"><img src="/sefakilic/coursera-repdata/raw/master/project1/figure/unnamed-chunk-7.png" alt="plot of chunk unnamed-chunk-7" style="max-width:100%;"></a> </p>
 </article>
   </div>
 
@@ -718,7 +744,7 @@ ggplot(<span class="pl-smi">averages</span>, aes(<span class="pl-smi">interval</
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2016 <span title="0.08020s from github-fe153-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2016 <span title="0.09574s from github-fe136-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
